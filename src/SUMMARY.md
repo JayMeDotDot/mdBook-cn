@@ -4,9 +4,9 @@
 
 # User guide
 
-- [Installation](guide/installation.md)
-- [Reading books](guide/reading.md)
-- [Creating a book](guide/creating.md)
+- [安装](guide/installation.md)
+- [阅读书籍](guide/reading.md)
+- [创建一本书](guide/creating.md)
 
 # Reference guide
 
