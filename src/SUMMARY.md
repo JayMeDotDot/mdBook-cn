@@ -10,14 +10,14 @@
 
 # Reference guide
 
-- [Command-line tool](cli/README.md)
-    - [init](cli/init.md)
-    - [build](cli/build.md)
-    - [watch](cli/watch.md)
-    - [serve](cli/serve.md)
-    - [test](cli/test.md)
-    - [clean](cli/clean.md)
-    - [completions](cli/completions.md)
+- [命令行工具](cli/README.md)
+    - [init 命令](cli/init.md)
+    - [build 命令](cli/build.md)
+    - [watch 命令](cli/watch.md)
+    - [serve 命令](cli/serve.md)
+    - [test 命令](cli/test.md)
+    - [clean 命令](cli/clean.md)
+    - [completions 命令](cli/completions.md)
 - [Format](format/README.md)
     - [SUMMARY.md](format/summary.md)
         - [Draft chapter]()
