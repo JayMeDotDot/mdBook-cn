@@ -34,11 +34,11 @@
     - [MathJax support](format/mathjax.md)
     - [mdBook-specific features](format/mdbook.md)
     - [Markdown](format/markdown.md)
-- [Continuous integration](continuous-integration.md)
+- [在持续集成中运行 `mdbook`](continuous-integration.md)
 - [For developers](for_developers/README.md)
     - [Preprocessors](for_developers/preprocessors.md)
     - [Alternative backends](for_developers/backends.md)
 
 -----------
 
-[Contributors](misc/contributors.md)
+[贡献者](misc/contributors.md)
