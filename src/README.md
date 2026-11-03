@@ -28,10 +28,10 @@ Version: {{ mdbook-version }}
 * 使用 [Rust][Rust] 编写，兼顾速度、安全与简洁
 * 自动测试 [Rust 代码示例](cli/test.md)
 
-本指南本身就是 mdBook 产物的一个示例。Rust 编程语言项目也在使用 mdBook，[The Rust Programming Language][trpl]一书是 mdBook 实际应用的另一个很好的例子。
+本指南本身就是 mdBook 产物的一个示例。Rust 编程语言项目也在使用 mdBook，《[Rust 程序设计语言][trpl]》一书是 mdBook 实际应用的另一个很好的例子。
 
 [Markdown]: format/markdown.md
-[search]: guide/reading.md#search
+[search]: guide/reading.md#搜索
 [syntax highlighting]: format/theme/syntax-highlighting.md
 [theme]: format/theme/index.html
 [preprocessors]: format/configuration/preprocessors.md

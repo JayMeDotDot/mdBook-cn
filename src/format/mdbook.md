@@ -107,7 +107,7 @@ panic!("oops!");
 ```
 ~~~
 
-在使用 [`mdbook test`] 测试 Rust 示例时，这些属性尤为重要。它们使用与 [rustdoc attributes]（rustdoc 属性）相同的属性，并额外增加了几项：
+在使用 [`mdbook test`] 测试 Rust 示例时，这些属性尤为重要。它们使用与 [rustdoc][rustdoc attributes]（rustdoc 属性）相同的属性，并额外增加了几项：
 
 * `editable` --- 启用[编辑器][editor]。
 * `noplayground` --- 移除运行按钮，但仍会被测试。
@@ -121,7 +121,7 @@ panic!("oops!");
 [`mdbook test`]: ../cli/test.md
 [rustdoc attributes]: https://doc.rust-lang.org/rustdoc/documentation-tests.html#attributes
 [editor]: theme/editor.md
-[`rust.edition`]: configuration/general.md#rust-options
+[`rust.edition`]: configuration/general.md#rust-选项
 
 ## 引入文件
 

@@ -4,7 +4,7 @@
 
 关于使用后端的更多信息，请参阅[配置渲染器](../format/configuration/renderers.md)。
 
-社区已经开发了多个后端。可用后端的列表请参见 [Third Party Plugins] wiki 页面。
+社区已经开发了多个后端。可用后端的列表请参见 [第三方插件][Third Party Plugins] wiki 页面。
 
 ## 准备工作
 

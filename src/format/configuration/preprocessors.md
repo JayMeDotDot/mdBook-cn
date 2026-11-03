@@ -6,15 +6,15 @@
 
 - `links`：展开章节中的 `{{ #playground }}`、`{{ #include }}` 和 `{{ #rustdoc_include }}` handlebars
   辅助函数，以将文件的内容包含进来。
-  详见 [Including files]。
+  详见 [引入文件][Including files]。
 - `index`：将所有名为 `README.md` 的章节文件转换为 `index.md`。也就是说，
   所有 `README.md` 在渲染后的书籍中都会被渲染为索引文件 `index.html`。
 
 可以通过 [`build.use-default-preprocessors`] 配置选项禁用这些内置预处理器。
 
-社区已经开发了许多预处理器。可用预处理器的列表请参阅 [Third Party Plugins] wiki 页面。
+社区已经开发了许多预处理器。可用预处理器的列表请参阅 [第三方插件][Third Party Plugins] wiki 页面。
 
-有关如何创建新预处理器的信息，请参阅 [Preprocessors for Developers] 一章。
+有关如何创建新预处理器的信息，请参阅 [预处理器][Preprocessors for Developers] 一章。
 
 [Including files]: ../mdbook.md#including-files
 [`build.use-default-preprocessors`]: general.md#build-options

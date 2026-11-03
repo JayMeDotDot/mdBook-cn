@@ -71,18 +71,18 @@ mdBook 的[解析器](https://github.com/raphlinus/pulldown-cmark)遵循 [Common
 
 阅读有关 [mdBook](mdbook.md) 的内容。
 
-现在还有一个 [an mdBook link]，与上面的不同，它不是内联的。
+现在还有一个 [一个 mdBook 链接][an mdBook link]，与上面的不同，它不是内联的。
 
 一个裸 URL：<https://www.rust-lang.org>。
 
-[an mdBook link]: https://github.com/rust-lang/mdBook
+[一个 mdBook 链接][an mdBook link]: https://github.com/rust-lang/mdBook
 ```
 
 使用 [mdBook](https://github.com/rust-lang/mdBook)。
 
 阅读有关 [mdBook](mdbook.md) 的内容。
 
-现在还有一个 [an mdBook link]，与上面的不同，它不是内联的。
+现在还有一个 [一个 mdBook 链接][an mdBook link]，与上面的不同，它不是内联的。
 
 一个裸 URL：<https://www.rust-lang.org>。
 
@@ -204,7 +204,7 @@ mdBook 的[解析器](https://github.com/raphlinus/pulldown-cmark)遵循 [Common
 [strikethrough]: https://github.github.com/gfm/#strikethrough-extension-
 [tables]: https://github.github.com/gfm/#tables-extension-
 [task list extension]: https://github.github.com/gfm/#task-list-items-extension-
-[`output.html.smart-punctuation`]: configuration/renderers.md#html-renderer-options
+[`output.html.smart-punctuation`]: configuration/renderers.md#html-渲染器选项
 
 ### 标题属性
 
@@ -252,11 +252,11 @@ mdBook 的[解析器](https://github.com/raphlinus/pulldown-cmark)遵循 [Common
 
 此功能默认启用。要禁用它，请参阅 [`output.html.definition-lists`] 配置项。
 
-[`output.html.definition-lists`]: configuration/renderers.md#html-renderer-options
+[`output.html.definition-lists`]: configuration/renderers.md#html-渲染器选项
 
-### 警示框
+### 提示块
 
-警示框（admonition）是一种特殊的标注（callout）或提示块，用来突出重要信息。它的写法是一个块引用，并在第一行加上一个特殊标记。
+提示块（admonition）是一种特殊的标注（callout），用来突出重要信息。它的写法是一个块引用，并在第一行加上一个特殊标记。
 
 ```md
 > [!NOTE]
@@ -294,7 +294,7 @@ mdBook 的[解析器](https://github.com/raphlinus/pulldown-cmark)遵循 [Common
 
 此功能默认启用。要禁用它，请参阅 [`output.html.admonitions`] 配置项。
 
-[`output.html.admonitions`]: configuration/renderers.md#html-renderer-options
+[`output.html.admonitions`]: configuration/renderers.md#html-渲染器选项
 
 ## 缩放
 

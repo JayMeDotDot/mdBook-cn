@@ -2,13 +2,13 @@
 
 [简介](README.md)
 
-# User guide
+# 用户指南
 
 - [安装](guide/installation.md)
 - [阅读书籍](guide/reading.md)
 - [创建一本书](guide/creating.md)
 
-# Reference guide
+# 参考指南
 
 - [命令行工具](cli/README.md)
     - [init 命令](cli/init.md)

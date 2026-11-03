@@ -2,7 +2,7 @@
 
 有许多服务（例如 [GitHub Actions] 或 [GitLab CI/CD]）可用于自动测试和部署你的书。
 
-以下提供了一些关于如何配置你的服务以运行 mdBook 的通用指南。具体的配置示例可以在 [Automated Deployment] wiki 页面中找到。
+以下提供了一些关于如何配置你的服务以运行 mdBook 的通用指南。具体的配置示例可以在 [自动化部署][Automated Deployment] wiki 页面中找到。
 
 [GitHub Actions]: https://docs.github.com/en/actions
 [GitLab CI/CD]: https://docs.gitlab.com/ee/ci/
@@ -53,7 +53,7 @@ cargo install mdbook --no-default-features --features search --vers "^{{ mdbook-
 
 由于构建 mdBook 可能会比较慢，你可能需要研究一下缓存选项。
 
-[search]: guide/reading.md#search
+[search]: guide/reading.md#搜索
 
 ## 运行测试
 
@@ -78,7 +78,7 @@ cargo install mdbook --no-default-features --features search --vers "^{{ mdbook-
 
 之后，你可能需要考虑是否需要使 Web 服务上的缓存失效。
 
-各种不同服务的示例请参见 [Automated Deployment] wiki 页面。
+各种不同服务的示例请参见 [自动化部署][Automated Deployment] wiki 页面。
 
 [GitHub Pages]: https://docs.github.com/en/pages
 
@@ -96,5 +96,5 @@ site-url = "/mdBook/"
 
 你可以在书中创建一个名为 `src/404.md` 的文件来自定义 404 页面的外观。如果你想使用不同的文件名，可以将 [`output.html.input-404`] 设置为其他文件名。
 
-[`output.html.site-url`]: format/configuration/renderers.md#html-renderer-options
-[`output.html.input-404`]: format/configuration/renderers.md#html-renderer-options
+[`output.html.site-url`]: format/configuration/renderers.md#html-渲染器选项
+[`output.html.input-404`]: format/configuration/renderers.md#html-渲染器选项

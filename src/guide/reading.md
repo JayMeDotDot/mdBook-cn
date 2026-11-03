@@ -64,8 +64,8 @@ mdBook 常用于编程项目，因此支持对代码块和示例进行语法高�
 | 图标 | 说明 |
 |------|------|
 | <i class="clip-button"></i> | 将代码块复制到本地剪贴板，以便粘贴到其他应用程序中。 |
-| <i class="fas fa-play"></i> | 对于 Rust 代码示例，将会执行示例代码，并在示例下方显示编译器输出（参见 [playground]）。 |
-| <i class="fa fa-eye"></i> | 对于 Rust 代码示例，将会切换“隐藏”行的可见性。有时，较大的示例会隐藏与所演示内容关系不大的行（参见 [hiding code lines]）。 |
+| <i class="fas fa-play"></i> | 对于 Rust 代码示例，将会执行示例代码，并在示例下方显示编译器输出（参见 [Rust 演练场][playground]）。 |
+| <i class="fa fa-eye"></i> | 对于 Rust 代码示例，将会切换“隐藏”行的可见性。有时，较大的示例会隐藏与所演示内容关系不大的行（参见 [隐藏代码行]【】[hiding code lines]）。 |
 | <i class="fas fa-clock-rotate-left"></i> | 对于 [可编辑的代码示例][editor]，将会撤销你所做的所有修改。 |
 
 下面是一个示例：
@@ -75,5 +75,5 @@ println!("Hello, World!");
 ```
 
 [editor]: ../format/theme/editor.md
-[playground]: ../format/mdbook.md#rust-playground
-[hiding code lines]: ../format/mdbook.md#hiding-code-lines
+[playground]: ../format/mdbook.md#rust-演练场
+[hiding code lines]: ../format/mdbook.md#隐藏代码行

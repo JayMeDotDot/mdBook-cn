@@ -28,5 +28,5 @@
 
 如果你完全替换了所有内置主题，请务必同时在配置中设置 [`output.html.preferred-dark-theme`]，它默认为内置的 `navy` 主题。
 
-[`output.html.preferred-dark-theme`]: ../configuration/renderers.md#html-renderer-options
+[`output.html.preferred-dark-theme`]: ../configuration/renderers.md#html-渲染器选项
 [newer browsers]: https://caniuse.com/#feat=link-icon-svg

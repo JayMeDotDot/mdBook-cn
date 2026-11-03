@@ -4,13 +4,13 @@
 
 以下是内置的后端：
 
-* [`html`](#html-renderer-options) --- 将书籍渲染为 HTML。
+* [`html`](#html-渲染器选项) --- 将书籍渲染为 HTML。
   如果 `book.toml` 中没有定义其他 `[output]` 表，则默认启用它。
-* [`markdown`](#markdown-renderer) --- 在运行预处理器之后将书籍以 markdown 格式输出。这对于调试预处理器很有用。
+* [`markdown`](#markdown-渲染器) --- 在运行预处理器之后将书籍以 markdown 格式输出。这对于调试预处理器很有用。
 
-社区已经开发了许多后端。可用后端的列表参见 [Third Party Plugins] wiki 页面。
+社区已经开发了许多后端。可用后端的列表参见 [第三方插件][Third Party Plugins] wiki 页面。
 
-关于如何创建新后端，参见 [Backends for Developers] 一章。
+关于如何创建新后端，参见 [后端][Backends for Developers] 一章。
 
 [Third Party Plugins]: https://github.com/rust-lang/mdBook/wiki/Third-party-plugins#backends
 [Backends for Developers]: ../../for_developers/backends.md
@@ -52,7 +52,7 @@ title = "My Awesome Book"
 如果有多个后端，每个后端的输出会放在 `book` 下各自独立的目录中。
 例如，上面的配置会生成 `book/html` 和 `book/wordcount` 目录。
 
-[`build.build-dir`]: general.md#build-options
+[`build.build-dir`]: general.md#构建选项
 
 ### 自定义后端命令
 
@@ -117,9 +117,9 @@ zoomable-images = true
 - **default-theme:** 在 'Change Theme' 下拉菜单中默认选中的内置主题。可选值为 `light`、`rust`、`coal`、`navy` 和 `ayu`。默认值为 `light`。
 - **preferred-dark-theme:** 当浏览器通过
   [`prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)CSS 媒体查询请求网站的深色版本时使用的内置主题。可选值为 `light`、`rust`、`coal`、`navy` 和 `ayu`。默认值为 `navy`。
-- **smart-punctuation:** 将引号转换为弯引号，`...` 转换为 `…`，`--` 转换为 en-dash（短破折号），`---` 转换为 em-dash（长破折号）。参见 [Smart Punctuation](../markdown.md#smart-punctuation)。默认值为 `true`。
-- **definition-lists:** 启用[定义列表](../markdown.md#definition-lists)。默认值为 `true`。
-- **admonitions:** 启用 [admonitions（提示块）](../markdown.md#admonitions)。默认值为 `true`。
+- **smart-punctuation:** 将引号转换为弯引号，`...` 转换为 `…`，`--` 转换为 en-dash（短破折号），`---` 转换为 em-dash（长破折号）。参见 [智能标点](../markdown.md#智能标点)。默认值为 `true`。
+- **definition-lists:** 启用[定义列表](../markdown.md#定义列表)。默认值为 `true`。
+- **admonitions:** 启用 [admonitions（提示块）](../markdown.md#提示块)。默认值为 `true`。
 - **mathjax-support:** 添加对 [MathJax](../mathjax.md) 的支持。默认值为 `false`。
 - **additional-css:** 如果你只想略微调整书籍的外观而不想覆盖整个样式，可以指定一组样式表，它们会在默认样式表之后加载，你可以在其中对样式进行精细的修改。
 - **additional-js:** 如果你需要在书籍中添加一些行为而不移除现有行为，可以指定一组 JavaScript 文件，它们会与默认的 JavaScript 一起加载。
@@ -198,13 +198,13 @@ runnable = true          # 为 rust 代码显示运行按钮
 hidelines = { python = "~" }
 ```
 
-- **hidelines:** 一个表，用于定义各语言中[隐藏代码行](../mdbook.md#hiding-code-lines)的工作方式。键是语言，值是一个字符串，以该前缀开头的代码行将被隐藏。
+- **hidelines:** 一个表，用于定义各语言中[隐藏代码行](../mdbook.md#隐藏代码行)的工作方式。键是语言，值是一个字符串，以该前缀开头的代码行将被隐藏。
 
 ### `[output.html.search]`
 
-`[output.html.search]` 表提供了控制内置文本[搜索]功能的选项。mdBook 必须在编译时启用 `search` feature（默认开启）。
+`[output.html.search]` 表提供了控制内置文本[搜索][search]功能的选项。mdBook 必须在编译时启用 `search` feature（默认开启）。
 
-[search]: ../../guide/reading.md#search
+[search]: ../../guide/reading.md#搜索
 
 ```toml
 [output.html.search]

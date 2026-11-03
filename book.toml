@@ -3,7 +3,6 @@ title = "mdBook 中文文档"
 description = "从 Markdown 文件创建书籍。mdBook 类似于 GitBook，但是用 Rust 实现的。"
 authors = ["Mathieu David", "Michael-F-Bryan"]
 language = "zh-CN"
-# translator= "JayMeDotDot"
 
 [rust]
 edition = "2018"
