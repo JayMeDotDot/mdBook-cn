@@ -33,7 +33,7 @@ Version: {{ mdbook-version }}
 [Markdown]: format/markdown.md
 [search]: guide/reading.md#搜索
 [syntax highlighting]: format/theme/syntax-highlighting.md
-[theme]: format/theme/index.html
+[theme]: format/theme/README.md
 [preprocessors]: format/configuration/preprocessors.md
 [backends]: format/configuration/renderers.md
 [Rust]: https://www.rust-lang.org/

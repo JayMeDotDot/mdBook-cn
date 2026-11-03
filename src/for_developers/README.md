@@ -23,7 +23,7 @@
 
 ## 将 `mdbook` 用作库
 
-`mdbook` 二进制程序只是底层 mdBook crate 的一个封装，它将这些 crate 的功能以命令行程序的形式暴露出来。如果你想以编程方式驱动 mdBook，可以使用 [`mdbook-driver`] crate。它可以用来添加你自己的功能，或者调整构建过程。
+`mdbook` 二进制程序只是底层 mdBook crate 的一个封装，它将这些 crate 的功能以命令行程序的形式暴露出来。如果你想以编程方式驱动 mdBook，可以使用 [`mdbook-driver`](https://crates.io/crates/mdbook-driver) crate。它可以用来添加你自己的功能，或者调整构建过程。
 
 了解如何使用 `mdbook-driver` crate 的最简单方式是查阅 [API 文档][API Docs]。顶层文档解释了如何使用 [`MDBook`] 类型来加载和构建一本书，而 [config] 模块则对配置系统作了很好的说明。
 

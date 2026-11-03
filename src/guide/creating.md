@@ -24,7 +24,7 @@ mdbook serve --open
 
 `--open` 选项会打开你的默认 web 浏览器来查看这本新书。即使在你编辑书的内容时，也可以让服务器一直运行，`mdbook` 会自动重新构建输出 *并* 自动刷新你的 web 浏览器。
 
-欲了解其他 `mdbook` 命令和命令行选项的更多信息，请查阅 [CLI 指南](../cli/index.html)。
+欲了解其他 `mdbook` 命令和命令行选项的更多信息，请查阅 [CLI 指南](../cli/README.md)。
 
 ## 一本书的构成
 
@@ -32,7 +32,7 @@ mdbook serve --open
 
 ### `book.toml`
 
-在你的书的根目录下，有一个 `book.toml` 文件，其中包含描述如何构建你的书的设置。它使用 [TOML 标记语言](https://toml.io/)编写。默认设置通常足以让你开始使用。当你有兴趣探索 mdBook 提供的更多特性和选项时，请查阅 [配置章节](../format/configuration/index.html) 了解更多细节。
+在你的书的根目录下，有一个 `book.toml` 文件，其中包含描述如何构建你的书的设置。它使用 [TOML 标记语言](https://toml.io/)编写。默认设置通常足以让你开始使用。当你有兴趣探索 mdBook 提供的更多特性和选项时，请查阅 [配置章节](../format/configuration/README.md) 了解更多细节。
 
 一个非常基础的 `book.toml` 可以简单到像这样：
 

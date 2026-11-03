@@ -233,7 +233,7 @@ copy-js = true           # 引入搜索所需的 Javascript 代码
 
 #### `[output.html.search.chapter]`
 
-[`output.html.search.chapter`] 表允许按章节或目录修改搜索设置。每个键是章节源文件或目录的路径，值是要应用到该路径的设置表。设置会递归合并，更具体的路径优先。
+`[output.html.search.chapter]` 表允许按章节或目录修改搜索设置。每个键是章节源文件或目录的路径，值是要应用到该路径的设置表。设置会递归合并，更具体的路径优先。
 
 ```toml
 [output.html.search.chapter]
