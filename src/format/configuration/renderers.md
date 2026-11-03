@@ -168,7 +168,7 @@ level = 0         # 开始折叠的深度
 
 ### `[output.html.playground]`
 
-`[output.html.playground]` 表提供了控制 Rust 示例代码块及其与 [Rust Playground] 集成的选项。
+`[output.html.playground]` 表提供了控制 Rust 示例代码块及其与 [Rust 演练场][Rust Playground] 集成的选项。
 
 [Rust Playground]: https://play.rust-lang.org/
 

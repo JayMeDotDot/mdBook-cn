@@ -71,7 +71,7 @@ nothidden():
 
 ## Rust 演练场
 
-Rust 语言的代码块会自动获得一个运行按钮（<i class="fas fa-play"></i>），点击即可执行代码，并把输出显示在代码块正下方。其原理是将代码发送到 [Rust Playground]。
+Rust 语言的代码块会自动获得一个运行按钮（<i class="fas fa-play"></i>），点击即可执行代码，并把输出显示在代码块正下方。其原理是将代码发送到 [Rust 演练场][Rust Playground]。
 
 ```rust
 println!("Hello, World!");
@@ -279,7 +279,7 @@ To call the `add_one` function, we pass it an `i32` and bind the returned value 
 
 Rust 文件的路径必须相对于当前源文件。
 
-点击运行时，代码片段会被发送到 [Rust Playground] 进行编译和运行。结果会被传回并直接显示在代码下方。
+点击运行时，代码片段会被发送到 [Rust 演练场][Rust Playground] 进行编译和运行。结果会被传回并直接显示在代码下方。
 
 下面是渲染后的代码片段的样子：
 
@@ -293,7 +293,7 @@ Rust 文件的路径必须相对于当前源文件。
 ```
 ~~~
 
-`editable` 属性会启用[编辑器][editor]，如 [Rust 代码块属性](#rust-code-block-attributes)一节所述。
+`editable` 属性会启用[编辑器][editor]，如 [Rust 代码块属性](#rust-代码块属性)一节所述。
 
 [Rust Playground]: https://play.rust-lang.org/
 

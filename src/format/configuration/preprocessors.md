@@ -16,8 +16,8 @@
 
 有关如何创建新预处理器的信息，请参阅 [预处理器][Preprocessors for Developers] 一章。
 
-[Including files]: ../mdbook.md#including-files
-[`build.use-default-preprocessors`]: general.md#build-options
+[Including files]: ../mdbook.md#引入文件
+[`build.use-default-preprocessors`]: general.md#构建选项
 [Third Party Plugins]: https://github.com/rust-lang/mdBook/wiki/Third-party-plugins
 [Preprocessors for Developers]: ../../for_developers/preprocessors.md
 

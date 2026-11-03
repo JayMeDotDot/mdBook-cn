@@ -1,6 +1,6 @@
 # test 命令
 
-编写书籍时，有时需要将一些测试自动化。例如，[The Rust Programming Book](https://doc.rust-lang.org/stable/book/)（《Rust 程序设计语言》）使用大量可能过时的代码示例，因此对他们来说，能够自动测试这些代码示例非常重要。
+编写书籍时，有时需要将一些测试自动化。例如，[Rust 程序设计语言](https://doc.rust-lang.org/stable/book/)（《Rust 程序设计语言》）使用大量可能过时的代码示例，因此对他们来说，能够自动测试这些代码示例非常重要。
 
 mdBook 支持一个 `test` 命令，它会运行书中所有可用的测试。目前仅支持 Rust 测试。
 

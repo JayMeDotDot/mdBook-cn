@@ -2,7 +2,7 @@
 
 有多种方式可以安装 mdBook 命令行工具。请从下面选择一种最适合你需求的方法。
 
-如果你是为了自动部署而安装 mdBook，请查看[持续集成]（continuous integration）章节，了解更多安装示例。
+如果你是为了自动部署而安装 mdBook，请查看[持续集成][continuous integration]章节，了解更多安装示例。
 
 [continuous integration]: ../continuous-integration.md
 
@@ -16,7 +16,7 @@
 
 ## 使用 Rust 从源码构建
 
-要从源码构建 `mdbook` 可执行文件，你首先需要安装 Rust 和 Cargo。请按照 [Rust 安装页面] 上的说明操作。mdBook 目前至少需要 Rust 1.88 版本。
+要从源码构建 `mdbook` 可执行文件，你首先需要安装 Rust 和 Cargo。请按照 [Rust 安装页面][Rust installation page] 上的说明操作。mdBook 目前至少需要 Rust 1.88 版本。
 
 安装好 Rust 之后，可以使用以下命令来构建并安装 mdBook：
 
@@ -45,6 +45,6 @@ cargo install --git https://github.com/rust-lang/mdBook.git mdbook
 
 ## 修改与贡献
 
-如果你有兴趣对 mdBook 本身进行修改，请查看[贡献指南]（Contributing Guide）了解更多信息。
+如果你有兴趣对 mdBook 本身进行修改，请查看[贡献指南][Contributing Guide]了解更多信息。
 
 [Contributing Guide]: https://github.com/rust-lang/mdBook/blob/main/CONTRIBUTING.md

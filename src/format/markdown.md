@@ -93,7 +93,7 @@ mdBook 的[解析器](https://github.com/raphlinus/pulldown-cmark)遵循 [Common
 
 指向 `README.md` 的链接会被转换为 `index.html`。这样做是因为 GitHub 等一些服务会自动渲染 README 文件，而 Web 服务器通常期望根文件名为 `index.html`。
 
-可以使用 `#` 片段链接到各个标题。例如，`mdbook.md#text-and-paragraphs` 会链接到上文的 [Text and Paragraphs](#text-and-paragraphs)（文本与段落）一节。ID 是通过对标题进行变换而生成的，例如转换为小写、把空格替换为连字符。你可以点击任意标题，然后查看浏览器中的 URL，看看片段长什么样。
+可以使用 `#` 片段链接到各个标题。例如，`mdbook.md#text-and-paragraphs` 会链接到上文的 [文本与段落](#文本与段落)一节。ID 是通过对标题进行变换而生成的，例如转换为小写、把空格替换为连字符。你可以点击任意标题，然后查看浏览器中的 URL，看看片段长什么样。
 
 ## 图片
 
